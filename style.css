@@ -31,7 +31,7 @@ padding 0 1.5rem;
 nav a:hover {
    color: #fff
 }
- .hero-container {
+ .Grid-layout {
 display: grid;
 grid-template-columns: 1fr 1fr;
 height: 95vh;
@@ -79,13 +79,52 @@ padding:3rem calc((100vw - 1300px) / 2);
     align-items: center;
     padding: orem 2 rem;
  }
- .hero-image {
+ .bild-image {
    width: 100%;
    height: 100%;
+   float: right;
  }
  
  @media screen and (max-width: 768px) {
-.hero-container {
+.column {
    grid-template-columns: 1fr;
+   padding: 1rem;
 }
  }
+
+body {
+   background-color: #fff;
+}
+
+.footer {
+   background-color: yellow; /* Mörk bakgrundsfärg */
+   color: #000000; /* Vit textfärg */
+   padding: 2rem 0; /* Utrymme ovanför och under */
+   text-align: center; /* Centrera texten */
+}
+
+.footer-content {
+   max-width: 1200px; /* Maximal bredd för innehållet */
+   margin: 0 auto; /* Centrera innehållet */
+   padding: 0 2rem; /* Sidopadding */
+}
+
+.footer-links {
+   list-style: none; /* Ingen punktlista */
+   padding: 0; /* Ingen padding */
+   margin-top: 1rem; /* Avstånd över länkarna */
+}
+
+.footer-links li {
+   display: inline; /* Gör länkarna horisontella */
+   margin: 0 1rem; /* Utrymme mellan länkarna */
+}
+
+.footer-links a {
+   color: #000000; /* färg för länkar */
+   text-decoration: none; /* Ta bort understrykning */
+}
+
+.footer-links a:hover {
+   text-decoration: underline; /* Understrykning vid hover */
+}
