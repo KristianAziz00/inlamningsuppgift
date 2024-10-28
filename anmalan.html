@@ -20,9 +20,50 @@
                 <li><a href="info.html">info</a></li>
             </ul>
         </nav>
-        
-    <footer>
-        
+    </header>
+    <form class="anmälan">
+        <h1>Kunduppgifter</h1>
+    
+        <!-- Namn - Här anger användaren sitt fullständiga namn -->
+        <label for="Namn">Namn</label><br>
+        <input type="text" name="Namn" placeholder="Namn"><br><br>
+    
+        <!-- E-postadress - Användaren fyller i sin e-postadress för kontakt -->
+        <label for="Epostadress">Epostadress</label><br>
+        <input type="text" name="Epostadress" placeholder="Epostadress"><br><br>
+    
+        <!-- Telefonnummer - Här kan användaren ange sitt telefonnummer, gärna i internationellt format -->
+        <label for="Telefonnummer">Telefonnummer</label><br>
+        <input type="text" name="Telefonnummer" placeholder="+46"><br><br>
+    
+        <!-- Kursval - Användaren väljer en kurs från en fördefinierad lista -->
+        <label for="Kursval">Kursval</label><br>
+        <select id="Kursval">
+            <option value="--Select--">--Select--</option> <!-- Placeholder för val -->
+            <option value="Grund-kurs">Grund-kurs</option>
+            <option value="Marknadsföring-kurs">Marknadsföring-kurs</option>
+            <option value="Leverantör-kurs">Leverantör-kurs</option>
+        </select><br><br>
+    
+        <!-- Kommentar - Användaren kan lämna en öppen kommentar eller fråga -->
+        <label for="Kommentar">Kommentar</label><br>
+        <textarea name="Kommentar"></textarea><br><br> 
+    
+        <!-- Skicka-knapp - Användaren trycker här för att skicka in formuläret -->
+        <input type="submit" name="skicka">
+    </form>
+
+    
+    <footer class="footer">
+        <div class="footer-content">
+            <p>&copy; 2024 EduPro. Alla rättigheter förbehållna.</p>
+            <ul class="footer-länkar">
+                <li><a href="#">Om oss</a></li>
+                <li><a href="#">Kontakt</a></li>
+                <li><a href="#">Integritetspolicy</a></li>
+            </ul>
+        </div>
+
     </footer>
 </body>
 </html>

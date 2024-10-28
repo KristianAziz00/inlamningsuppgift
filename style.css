@@ -109,22 +109,35 @@ body {
    padding: 0 2rem; /* Sidopadding */
 }
 
-.footer-links {
+.footer-länkar {
+   list-style-type: none;
    list-style: none; /* Ingen punktlista */
    padding: 0; /* Ingen padding */
    margin-top: 1rem; /* Avstånd över länkarna */
 }
 
-.footer-links li {
+.footer-länkar li {
    display: inline; /* Gör länkarna horisontella */
    margin: 0 1rem; /* Utrymme mellan länkarna */
 }
 
-.footer-links a {
+.footer-länkar a {
    color: #000000; /* färg för länkar */
    text-decoration: none; /* Ta bort understrykning */
 }
 
-.footer-links a:hover {
+.footer-länkar a:hover {
    text-decoration: underline; /* Understrykning vid hover */
 }
+.anmälan{
+
+   border: 5px solid #ffffff;
+   border-radius: 9px; 
+   box-shadow: 0 4px 15px rgba(0, 0, 0, 0.489); 
+   padding: 50px; 
+   max-width: 400px;
+   margin: 20px auto; 
+   background-color: #f9f9f9;
+}
+
+      
