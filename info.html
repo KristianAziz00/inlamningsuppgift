@@ -1,57 +1,91 @@
 <!DOCTYPE html>
 <html lang="sv">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Företagsnamn - Startsida</title>
     <link rel="stylesheet" href="style.css">
 </head>
+
 <body>
     <header>
-       
+
         <nav>
             <div class="logo">EduPro</div>
             <div class="nav-items"></div>
-            
+
             <ul>
-                 <!-- Lista över navigationslänkar -->
+                <!-- Lista över navigationslänkar -->
                 <li><a href="index.html">Startsida</a></li>
-                 <!-- Länk till startsidan -->
+                <!-- Länk till startsidan -->
                 <li><a href="anmalan.html">Anmälan till kurser</a></li>
-                 <!-- Länk till anmälningssidan -->
+                <!-- Länk till anmälningssidan -->
                 <li><a href="info.html">info</a></li>
-                 <!-- Länk till informationssidan -->
+                <!-- Länk till informationssidan -->
             </ul>
         </nav>
         <section class="column">
 
 
-</div>
-</div>
+            </div>
+            </div>
         </section>
 
 
     </header>
-    <main>
-        <section>
-            
-        </section>
-        
-    </main>
-    
-        <footer class="footer">
-            <div class="footer-content">
-                <p>&copy; 2024 EduPro. Alla rättigheter förbehållna.</p>
-                <ul class="footer-länkar">
-                    <li><a href="#">Om oss</a></li>
-                    <li><a href="#">Kontakt</a></li>
-                    <li><a href="#">Integritetspolicy</a></li>
-                </ul>
-            </div>
+    <form class="info.">
+        <h1>Lista över kurser</h1>
+        <!--skapar en tabell och lägger till en kantlinje runt-->
+        <table border="1"></table>
+        <thead>
+            <tr>
+                <!--tabellrubriker för kolumerna: Kurs,datum och pris-->
+                <th>Kurs</th>
+                <th>Datum</th>
+                <th>Pris</th>
+            </tr>
+        </thead>
+        <tbody>
+            <!--En rad med kursnamn,datum och pris-->
+            <tr>
+                <td>CSS</td>
+                <td>15 Januari 2025</td>
+                <td>700 SEK</td>
+            </tr>
+            <!--Nästa rad med en annan kurs-->
+            <tr>
+                <td>C#</td>
+                <td>15 Februari</td>
+                <td>750 SEK</td>
+            </tr>
 
-        </footer>
-        
-    
+            <tr>
+                <td>Javascript</td>
+                <td>15 Mars</td>
+                <td>650 SEK</td>
+            </tr>
+        </tbody>
+
+
+
+
+    </form>
+
+    <footer class="footer">
+        <div class="footer-content">
+            <p>&copy; 2024 EduPro. Alla rättigheter förbehållna.</p>
+            <ul class="footer-länkar">
+                <li><a href="#">Om oss</a></li>
+                <li><a href="#">Kontakt</a></li>
+                <li><a href="#">Integritetspolicy</a></li>
+            </ul>
+        </div>
+
+    </footer>
+
+
     </footer>
 </body>
+
 </html>
