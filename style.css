@@ -1,14 +1,15 @@
 * {
    box-sizing: border-box;
-   margin: 0;
    padding: 0;
    font-family: 'Trebuchet MS', 'Lucidia Sans Unicode',
       'Lucidia Grande',
       'Lucidia Sans', Arial, sans-serif;
 }
 
+
+
 nav {
-   height: 80px;
+   height: 120px;
    background-color: yellow;
    display: flex;
    justify-content: space-between;
@@ -88,12 +89,6 @@ button:hover {
    float: right;
 }
 
-@media screen and (max-width: 768px) {
-   .column {
-      grid-template-columns: 1fr;
-      padding: 1rem;
-   }
-}
 
 body {
    background-color: #fff;
@@ -118,6 +113,8 @@ body {
    padding: 0 2rem;
    /* Sidopadding */
 }
+
+
 
 .footer-länkar {
    list-style-type: none;
@@ -150,7 +147,7 @@ body {
 
 .anmälan {
 
-   border: 5px solid #ffffff;
+   border: 0px solid #ffffff;
    border-radius: 9px;
    box-shadow: 0 4px 15px rgba(0, 0, 0, 0.489);
    padding: 50px;
@@ -178,24 +175,24 @@ body {
 
    /*Grund inställning för tabellen*/
    table {
-      width: 80%;
-      margin: 0 auto;
+      width: 100%;
+      margin: 20px auto;
       border-collapse: collapse;
-      box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+      box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
    }
-
+margin-bottom: 36vh;
    /*stilar för tabelhuvud*/
    th {
-      background-color: #4caf50;
+      background-color: #000000;
       /*backgrundsfärg*/
       color: white;
       /*vit text*/
-      padding: 12px;
+      padding: 15px;
       /* lägger till mellanrum*/
       text-align: left;
       /* Justerar txetn till vänster*/
       font-weight: bold;
-      border-bottom: 2px solid #ddd;
+      border-bottom: 1px solid #ddd;
       /*Lägger till en linje under rubrikerna*/
    }
 
@@ -216,5 +213,9 @@ body {
       background-color: #ddd;
       /*ändrar färg när muspekaren hålls över*/
    }
-
+   
 }
+
+
+
+
