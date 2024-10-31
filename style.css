@@ -1,4 +1,4 @@
-* {
+*{
    box-sizing: border-box;
    padding: 0;
    font-family: 'Trebuchet MS', 'Lucidia Sans Unicode',
@@ -31,7 +31,7 @@ nav a {
 }
 
 nav a:hover {
-   color: #fff
+   color: #fff;
 }
 
 .Grid-layout {
@@ -150,7 +150,7 @@ body {
    border: 0px solid #ffffff;
    border-radius: 9px;
    box-shadow: 0 4px 15px rgba(0, 0, 0, 0.489);
-   padding: 50px;
+   padding: 100px;
    max-width: 400px;
    margin: 20px auto;
    background-color: #ffffff;
@@ -176,7 +176,7 @@ body {
    /*Grund inställning för tabellen*/
    table {
       width: 100%;
-      margin: 20px auto;
+      margin: 120px auto;
       border-collapse: collapse;
       box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
    }
